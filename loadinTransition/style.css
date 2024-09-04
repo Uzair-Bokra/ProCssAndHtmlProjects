@@ -1,0 +1,22 @@
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: lightcoral;
+}
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: lightseagreen;
+    animation-name: uzair1;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-fill-mode: alternate;
+}
+@keyframes uzair1 {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100%;
+    }
+}
